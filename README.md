@@ -1,6 +1,6 @@
 # AWS DMS Replication
 
-This module provides DMS replication from and external source (on premise) to RDS. It is early stages and only tested with `sqlserver-web`
+This module provides DMS replication from and external source (on premise) to RDS. It is early stages and only tested with `sqlserver-web`. It will provision a DMS replication instance as well as an RDS instance.
 
 
 ## About
@@ -10,7 +10,7 @@ This module provisions an AWS DMS Replication instance
 
 | Name | Version |
 |------|---------|
-| terraform | ~> 0.12.6 |
+| terraform | ~> 0.12.29 |
 | aws | ~> 2.53 |
 
 ## Providers
